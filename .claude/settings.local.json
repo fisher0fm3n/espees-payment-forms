@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx next *)",
+      "Bash(npx eslint *)",
+      "Bash(npx tsc *)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(./node_modules/.bin/tsc --noEmit)",
+      "Bash(perl -i -pe 's/React\\\\.ReactNode/ReactNode/g' CheckoutGuide.tsx)",
+      "Bash(grep -rn \"React\\\\.\" src/components/checkout \"src/app/\\(admin\\)/\\(others-pages\\)/checkout\")",
+      "Bash(grep -rn \"import React\\\\|type ReactNode\\\\|{ ReactNode\" src/components/checkout)",
+      "Read(//Users/desmondpitt/Projects/espees-admin-checkout/**)",
+      "Bash(cd /Users/desmondpitt/Projects/espees-admin-checkout grep -rIl \"TailAdmin\" src package.json README.md)",
+      "Bash(xargs perl *)"
+    ]
+  }
+}
